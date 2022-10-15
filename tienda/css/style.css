@@ -1,0 +1,49 @@
+#carrito p{
+    float: right;
+}
+#name{
+    color: rgb(87, 40, 94);
+}
+
+/* web */
+#lista-articulos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    width: 90%;
+}
+
+@media (max-width: 830px) {
+
+    #lista-articulos{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        gap: 10px;
+        width: 90%;
+    }
+}
+
+@media (max-width: 550px) {
+    #lista-articulos{
+        display: grid;
+        grid-template-columns: 1fr ;
+        gap: 10px;
+        width: 90%;
+    }
+    
+    #lista-carrito{
+        display: grid;
+        justify-content: center;
+    }
+}
+
+#articulosMercadoPago {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin: 30px;
+}
+  
+
+
